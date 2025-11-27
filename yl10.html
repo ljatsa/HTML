@@ -35,7 +35,8 @@
 <input type="radio" name="tuba" value="Muu" checked> Muu
 </fieldset>
    <form action="/submit_page" method="get">
-  <h2>Kontaktid</h2>
+<fieldset>
+    <h2>Kontaktid</h2>
 <form action="/submit_page" method="get">
   <p>
     <label for="fname">E-post:</label>
@@ -45,8 +46,41 @@
     <label for="email">mobiilitelefon:</label>
     <input id="email" name="email" type="email" required placeholder="465757857" maxlenght="10"
   </p> 
-
-  
+  <p>
+    <label for="email">aadress</label>
+    <input id="email" name="email" type="email" required placeholder="Tänav, maja, korter" maxlenght="10"
+  </p> 
+<p>
+    <label for="fname">Linn/asula</label>
+    <input id="fname" name="name" type="text" required placeholder="nt Tallinn" maxlenght="20"
+  </p>
+  <p>
+    <label for="email">Postiindeks</label>
+    <input id="email" name="email" type="email" required placeholder="nt 10111" maxlenght="5"
+  </p> 
+  <p>
+    <label for="email">Riik</label>
+    <input id="email" name="email" type="email" required placeholder="Eesti" maxlenght="10"
+  </p> 
+  </fieldset>
+  <fieldset>
+     <h2>muu info</h2>
+    <input type="checkbox" name="draw"> joonistamine
+    <input type="checkbox" name="sing"> laulmine
+<input type="checkbox" name="dance"> tantsimine
+<input type="checkbox" name="cook"> kokkamine
+ <p>
+<label for="email">muu</label>
+    <input id="email" name="email" type="email" required placeholder="täpsusta(kuni 30tähemärki)" maxlenght="30"
+ </p>
+ <p>
+  <label for="email">isiklik veebileht</label>
+    <input id="email" name="email" type="email" required placeholder="https://minuleht.ee" maxlenght="30"
+ </p>
+  </fieldset>
+  <fieldset>
+    <input type="checkbox" name="cook"> Kinnitan, et esitatud andmed on õiged ja luban nende töötlemist vastavalt kooli tingimustele.
+  </fieldset>
 </form>
 </form>
 </body>
