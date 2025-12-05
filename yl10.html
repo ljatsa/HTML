@@ -29,6 +29,11 @@
                 <input id="perenimi" name="perenimi" type="text" required 
                        placeholder="Jätsa" maxlength="30">
             </p>
+             <br>
+    <label for="date">Sünnikuupäev</label>
+    <br>
+    <input type="date" id="date" min="1950-01-01" max="2025-12-31" value="1980-01-01" required>
+  <br>
             <p>Sugu:</p>
             <label><input type="radio" name="sugu" value="Naine" checked> Naine</label>
             <label><input type="radio" name="sugu" value="Mees"> Mees</label>
@@ -47,12 +52,11 @@
                 <input id="telefon" name="telefon" type="tel" required 
                        placeholder="465757857" maxlength="10">
             </p>
-            <p>
-                <label for="aadress">Aadress:</label>
-                <textarea name="" id="">"rows 4"</textarea>
-                <input id="aadress" name="aadress" type="text" required 
-                       placeholder="Tänav, maja, korter" maxlength="50">
-            </p>
+             <br>
+  <label for="aadress">Aadress</label>
+  <br>
+  <textarea name="aadress" id="aadress" rows="5" cols="40"></textarea>
+  <br>
             <p>
                 <label for="linn">Linn/asula:</label>
                 <input id="linn" name="linn" type="text" required 
@@ -72,6 +76,9 @@
         <!-- MUU INFO -->
         <fieldset>
             <h2>Muu info</h2>
+            <br>
+<label>Huvialad</label>
+<br>
             <label><input type="checkbox" name="huvi" value="joonistamine"> Joonistamine</label>
             <label><input type="checkbox" name="huvi" value="laulmine"> Laulmine</label>
             <label><input type="checkbox" name="huvi" value="tantsimine"> Tantsimine</label>
@@ -86,6 +93,14 @@
                 <input id="veebileht" name="veebileht" type="url" 
                        placeholder="https://minuleht.ee" maxlength="100">
             </p>
+            <label for="varv">eelistatud teemavärv</label>
+            <br>
+            <input type="color" id="varv" name="varv" value="#0000ff">
+            <br>
+<label for="dokumendid">Dokumendid</label>
+<br>
+<input type="file" id="dokumendid" name="dokumendid" accept=".pdf,image/*">
+<br>
         </fieldset>
         <!-- KINNITUS -->
         <fieldset>
